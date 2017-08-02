@@ -1,0 +1,52 @@
+.navClass > ul {
+	background-color: #a83636;
+	color: #a83636;
+	font-size: 20px;
+}
+
+.navClass >li {
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px 25px;
+	
+}
+.navClass >ul >li {
+	float: center;
+	background-color: #a83636;
+	color: #a83636;
+	padding: 5px 25px;
+	list-style-type: none;
+	display: inline-block;
+	position: relative;
+}
+
+.navClass >ul >li:hover{
+	background-color: #752020;
+	list-style-type: none;
+}
+.navClass >ul >li >a {
+	text-decoration: none;
+
+}
+
+ul.sub-menu{
+	position: absolute;
+	width: 125px;
+	background-color: #a83636;
+	list-style-type: none;
+	margin-left: -25px;
+	padding-left: 0px;
+	padding-left: -25px;
+	opacity: 0;
+}
+ul.sub-menu >li >a {
+	text-decoration: none;
+	padding-left: 25px;
+
+}
+
+.navClass li:hover .sub-menu{
+	opacity: 1;
+
+}
