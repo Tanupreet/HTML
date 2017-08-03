@@ -1,7 +1,34 @@
+
+
+
+body{
+	margin: 0;
+
+	
+}
+header{
+	color: white;
+	/*padding-top: 242px;*/
+
+
+}
+
+.color{
+	background-color: #f7f0f0;
+}
+
+.text{
+text-align: justify;
+padding: 0px;
+color: lightseagreen;
+}
+
 .navClass > ul {
-	background-color: #a83636;
-	color: #a83636;
+	background-color: black;
+	color: white;
 	font-size: 20px;
+	padding-bottom: 20px;
+
 }
 
 .navClass >li {
@@ -9,12 +36,13 @@
 	display: inline-block;
 	text-decoration: none;
 	padding: 5px 25px;
+
 	
 }
 .navClass >ul >li {
 	float: center;
-	background-color: #a83636;
-	color: #a83636;
+	background-color: black;
+	color: white;
 	padding: 5px 25px;
 	list-style-type: none;
 	display: inline-block;
@@ -22,31 +50,247 @@
 }
 
 .navClass >ul >li:hover{
-	background-color: #752020;
+	
 	list-style-type: none;
+
 }
 .navClass >ul >li >a {
 	text-decoration: none;
+	color: white;
+
 
 }
 
 ul.sub-menu{
 	position: absolute;
 	width: 125px;
-	background-color: #a83636;
+	background-color: black;
 	list-style-type: none;
 	margin-left: -25px;
 	padding-left: 0px;
 	padding-left: -25px;
 	opacity: 0;
+	color: white;
+
 }
 ul.sub-menu >li >a {
 	text-decoration: none;
 	padding-left: 25px;
+	color: white;
+
 
 }
 
 .navClass li:hover .sub-menu{
 	opacity: 1;
 
+	
+}
+
+.sub-menu li:hover {
+	background-color: blue;
+	list-style-type: none;
+
+}
+
+.homered:hover{
+background-color: blue;
+padding: 10px 10px 10px 10px;
+}
+
+/*.dropdown{
+	overflow: hidden;
+}
+
+li.dropdown {
+    display: inline-block;
+}*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    opacity: .8;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    float: none;
+
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.container{
+	width: 100%;
+
+}
+
+.row{
+	width: 100%;
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+.hero{
+	height: 510px;
+	background: url("../HTML/hero.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative; 
+   width: 100%;
+   margin-bottom: 2%;
+}
+
+
+
+h1 { 
+   position: absolute; 
+   top: 0px; 
+   left: 450px; 
+   color: white;
+}
+
+.four{
+	width: 30%;
+	float:left;
+	margin-bottom: 3%;
+	margin-left: 3%
+
+}
+
+.seven{
+width: 65%;
+	float:left;
+	margin-bottom: 3%;
+	margin-left: 3%
+}
+
+.five{
+width: 25%;
+	float:left;
+	margin-bottom: 3%;
+	margin-left: 3%
+}
+
+.row1 .row2 .row3 .row{
+	padding-top: 30px;
+}
+
+.row2 .left{
+	height: 400px;
+	background: url("../HTML/10.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 300px;
+	
+}
+
+.row2 .mid{
+	height: 350px;
+	background: url("../HTML/4.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 270px;
+}
+
+.row2 .right{
+	height: 330px;
+	background: url("../HTML/9.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 280px;
+}
+
+h3 { 
+   position: absolute; 
+   color: black;
+
+}
+h4{
+	position: top;
+	color: white;
+	background-color: green;
+	background-size: cover;
+}
+
+.row3 .left{
+	height: 330px;
+	background: url("../HTML/8.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 300px;
+}
+
+.row3 .mid{
+	height: 330px;
+	background: url("../HTML/6.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 300px;
+
+}
+
+.row3 .right{
+	height: 330px;
+	background: url("../HTML/6.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 300px;
+
+}
+
+.row4 .left{
+	height: 330px;
+	background: url("../HTML/11.jpg");
+	background-repeat: no-repeat;
+	background-size: 850px;
+	
+}
+
+.row4 .right{
+	height: 600px;
+	
+	background-repeat: no-repeat;
+	background-size: 300px;
+	
+}
+
+.row4 .list{
+	background-color: #d7cdcd;
+	color: white;
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+
+.row4 .list >li {
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px 25px;
+}
+.row4 .list >li >a {
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px 25px;
+}
+
+.homeblack:hover{
+background-color: #a9a2a2;
+padding: 10px 10px 10px 10px;
 }
