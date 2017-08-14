@@ -1,0 +1,291 @@
+h1 {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: justify;
+}
+
+
+h3 {
+    position: absolute;
+    color: black;
+}
+
+h4 {
+    position: top;
+
+    list-style-type: none;
+    padding-right: 105px;
+    color: white;
+    background-color: green;
+    background-size: cover;
+}
+
+h5 {
+
+
+
+    padding-right: 105px;
+    color: white;
+    background-color: grey;
+    background-size: cover;
+    margin-bottom: -2px;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    color: white;
+}
+
+
+.text {                                                     /*Division Text*/
+    text-align: justify;
+    padding: 0px;
+    margin-top: 325px;
+    color: black;
+    font-family: serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.text1 {                                                    /*Division Text*/
+    text-align: justify;
+    padding: 0px;
+    margin-top: 291px;
+    color: black;
+    font-family: serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.text2 {                                                    /*Division Text*/
+    text-align: justify;
+    padding: 0px;
+    margin-top: 30px;
+    color: black;
+    font-family: serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+
+.navClass>ul {                                              /*Navigation*/
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.navClass>li {                                              /*Navigation*/
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 25px;
+}
+
+.navClass>ul>li {                                           /*Navigation*/
+    float: center;
+    background-color: black;
+    color: white;
+    padding: 5px 25px;
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+
+.navClass>ul>li:hover {                                      /*Navigation link hover*/
+
+    list-style-type: none;
+}
+
+.navClass>ul>li>a {                                         /*Navigation links*/
+    text-decoration: none;
+    color: white;
+}
+
+.homered:hover {                                            /*Navigation hover*/
+    background-color: blue;
+    padding: 10px 10px 10px 10px;
+}
+
+.container {                                                /*Container*/
+    width: 100%;
+    margin: auto;
+}
+
+.row {                                                      /*Container row*/
+    width: 100%;
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero {                                                     /*Hero unit*/
+    height: 510px;
+    background: url("../image/hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.hero:hover {                                                                                                           /*Hero unit hover*/
+    background: linear-gradient(rgba(134, 59, 255, 0.2), rgba(134, 59, 255, 0.2)), url("../image/hero2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.img {                                                      /*Image*/
+    padding-left: 200px;
+}
+
+
+.list>li {                                                  /*List*/
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 25px;
+}
+
+.list>li>a {                                                /*List*/
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 25px;
+}
+
+
+.container_12 .a {                                          /*Container division 1*/
+    height: 330px;
+    background: url("../image/10.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container_12 .b {                                          /*Container division 2*/
+    height: 331px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: url("../image/14.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 302px;
+}
+
+.container_12 .c {                                          /*Container division 3*/
+    height: 329px;
+    background: url("../image/9.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 272px;
+}
+
+.container_12 .d {                                          /*Container division 4*/
+    height: 333px;
+    background: url("../image/8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 327px;
+}
+
+.container_12 .e {                                          /*Container division 5*/
+    height: 332px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: url("../image/13.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 369px;
+}
+
+.container_12 .f {                                          /*Container division 6*/
+    height: 331px;
+    background: url("../image/16.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 302px;
+}
+
+.container_12 .g {                                          /*Container division 7*/
+    height: 331px;
+    background: url("../image/17.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 540px;
+}
+
+.container_12 .h {                                          /*Container division 8*/
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.container_12 .j {                                          /*Container division 9*/
+    height: 331px;
+    background: url("../image/second.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 540px;
+}
+
+.container_12 .k {                                          /*Container division 10*/
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px;
+}
+
+#sp {
+    margin-left: 250px;
+}
+
+.hq {
+    color: white;
+}
+
+.Neymar {                                                    /*Neymar image*/
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px;
+    color: white;
+    text-align: center;
+}
+
+.homeblack:hover {
+    background-color: #a9a2a2;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.footer {                                                    /*Footer*/
+    float: center;
+    margin-top: 115px;
+    height: 118px;
+    background-color: black;
+}
+
+.footer li {                                                    
+    float: left;
+    list-style: none;
+    margin-left: 5px;
+}
+
+.footer span {
+    float: left;
+    color: white;
+}
