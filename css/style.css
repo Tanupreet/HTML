@@ -170,7 +170,7 @@ header {
 
 .container_12 .a {                                          /*Container division 1*/
     height: 330px;
-    background: url("../image/10.jpg");
+    background: url("../image/gst.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -179,7 +179,7 @@ header {
     height: 331px;
     margin-left: 20px;
     margin-right: 20px;
-    background: url("../image/14.jpg");
+    background: url("../image/auto.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 302px;
@@ -187,7 +187,7 @@ header {
 
 .container_12 .c {                                          /*Container division 3*/
     height: 329px;
-    background: url("../image/9.jpg");
+    background: url("../image/trump.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 272px;
@@ -195,7 +195,7 @@ header {
 
 .container_12 .d {                                          /*Container division 4*/
     height: 333px;
-    background: url("../image/8.jpg");
+    background: url("../image/food.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 327px;
@@ -205,7 +205,7 @@ header {
     height: 332px;
     margin-left: 20px;
     margin-right: 20px;
-    background: url("../image/13.jpg");
+    background: url("../image/culture.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 369px;
@@ -213,7 +213,7 @@ header {
 
 .container_12 .f {                                          /*Container division 6*/
     height: 331px;
-    background: url("../image/16.jpg");
+    background: url("../image/weather.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 302px;
@@ -221,7 +221,7 @@ header {
 
 .container_12 .g {                                          /*Container division 7*/
     height: 331px;
-    background: url("../image/17.jpeg");
+    background: url("../image/mithali.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 540px;
